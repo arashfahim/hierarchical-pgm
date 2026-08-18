@@ -1,6 +1,6 @@
 # hierarchical-pgm
 
-Companion code for the paper *"A Hierarchical Resource-Efficient Deep Policy Gradient Method for Continuous-Time Optimal Control Problems"* by Arash Fahim (Florida State University) and Md. Arafatur Rahman (Citibank N.A.).
+Companion code for the paper *"A Hierarchical Resource-Efficient Deep Policy Gradient Method for Continuous-Time Optimal Control Problems"* by Arash Fahim (Florida State University) and Md. Arafatur Rahman (Citibank N.A.), available at [arXiv:2502.14141](https://arxiv.org/html/2502.14141v3).
 
 The paper proposes a hierarchical (multiscale) implementation of the deep policy gradient method (PGM) for continuous-time stochastic optimal control: rather than committing up front to a uniformly fine time discretization, a policy is trained on a coarse time grid first, then the grid is selectively refined only in the sub-intervals where the coarse solution is inaccurate. This repository contains the notebooks for the two numerical experiments in the paper.
 
@@ -12,4 +12,17 @@ The paper proposes a hierarchical (multiscale) implementation of the deep policy
 
 ## Citation
 
-If you use this code, please cite the paper (citation details to be added once the manuscript is published).
+If you use this code, please cite the paper:
+
+```bibtex
+@misc{fahim2025hierarchical,
+  title         = {A Hierarchical Resource-Efficient Deep Policy Gradient Method for Continuous-Time Optimal Control Problems},
+  author        = {Fahim, Arash and Rahman, Md. Arafatur},
+  year          = {2025},
+  eprint        = {2502.14141},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/html/2502.14141v3}
+}
+```
+
+Journal publication is pending; this entry will be updated once the manuscript is accepted.
